@@ -74,6 +74,7 @@ git commit -m "Add deployment stage to the CI/CD pipeline"
 git push
 ```
 
+NOT DO OPTION 2:
 ## Option 2: Let's perform a real deployment (WIP)
 
 Lets add a new job that allow us to deploy our modern web app to an environment that we will call production.

@@ -25,7 +25,7 @@ curl ${target_url}
 echo "Smoke test completed successfully!"
 ```
 
-To be able to run the smoke test script you have to define it in the package.json in the modern-web-app. We'll add the test:smoke task to point to our moke-test script.
+To be able to run the smoke test script you have to define it in the package.json in the modern-web-app. We'll add the test:smoke task to point to our smoke-test script.
 
 ```json
 {
