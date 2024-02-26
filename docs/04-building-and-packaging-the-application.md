@@ -10,6 +10,7 @@ In the previous stage of our pipeline we make sure the latest changes are integr
 
 Lets add a new job call build with the following steps
 
+Note: There is a typo en the yaml below: "modern-web-app-" instead of "modern-web-app-v"
 ```yaml
 jobs:
     [....]
@@ -31,7 +32,7 @@ jobs:
             - name: Upload artifacts
               uses: actions/upload-artifact@v3
               with:
-                name: modern-web-app-v${{ github.sha }}
+                name: modern-web-app-${{ github.sha }}
                 path: modern-web-app/.next/
 
 ```

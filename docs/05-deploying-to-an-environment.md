@@ -32,7 +32,7 @@ Let's start by adding a new build tasks to our package.json file. This task auto
 
 We added a new npm task, deploy:simulate, that calls a script that simulates a deployment and tells when the deployment is completed. Let's try to execute the automated deployment process locally and see what happens.
 
-NOTE: This would fail in local: 
+NOTE: This would fail in local : 
 ```bash
 cd modern-web-app
 npm run deploy:simulate -- production
@@ -74,7 +74,7 @@ git commit -m "Add deployment stage to the CI/CD pipeline"
 git push
 ```
 
-NOT DO OPTION 2:
+NOTE: NOT DO OPTION 2 
 ## Option 2: Let's perform a real deployment (WIP)
 
 Lets add a new job that allow us to deploy our modern web app to an environment that we will call production.
